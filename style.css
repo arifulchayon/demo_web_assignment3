@@ -1,0 +1,405 @@
+/* Google open sens font link up */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.header{
+    width: 100%;
+}
+body{
+    /* font-family:  ~~~~font name which we will use~~~~~ 
+    "Open Sans", sans-serif;   */
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* now start our normal project css */
+
+/* Header Design */
+
+.main{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.logo{
+    flex-basis: 20%;
+}
+
+.menu{
+    flex-basis: 60%;
+    margin-top: 35px;
+
+}
+.btns{
+    flex-basis: 20%;
+    margin-top: 35px;
+
+}
+.main .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 19px;
+    text-transform: uppercase;
+    color: #0e72cc;
+    font-weight: 500;
+}
+.btns a{
+    background-color: #0e72cc;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #0e72cc;
+    margin-top: 3px;
+    transition: 0.8s;
+}
+.btns a:hover{
+    background-color: #3f96e2;
+    font-size: 15px;
+    border: 1px solid #3f96e2;
+    transition: 0.8s;
+   
+}
+.btns i{
+    margin-right: 5px;
+    color: white;
+}
+
+/* *************
+   **   Body part CSS    **
+   **************
+ */
+
+ /* Social Media Icon/tab */
+.social-icon{
+    width: 100%;
+    margin-top: 10px;
+}
+.social-icon .social .icon {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    left: -200px;
+    transition: 0.8s;
+}
+
+.social-icon .social .icon:hover{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    transition: 0.8s;
+}
+
+.social-icon .social .icon ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 30px;
+    background:#3f96e2;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #3f96e2;
+    border-radius: 12px;
+}
+
+.social-icon .social .icon ul li:hover i{
+    animation: rotation 2s infinite linear;
+    
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* 1st part Css */
+
+.banner-section{
+    width: 100%;
+
+}
+.main-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+
+}
+.banner-section .main-banner .left {
+    flex-basis: 50%;
+    position: relative;
+    padding-top: 170px;
+}
+.banner-section .main-banner .left h1 {
+    font-size: 46px;
+    color: #0e72cc;
+    font-weight: 700;
+    line-height: 50px;
+}
+.banner-section .main-banner .left p {
+    color: #0e72cc;
+    font-size: 22px;
+    margin-top: 19px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 39px;
+    width: 96%;
+}
+
+.banner-section .main-banner .left .btns a{
+    background-color: #0e72cc;
+    padding: 13px 28px;
+    color: white;
+    font-size: 16px;
+    border-radius: 13px;
+    transition: 0.8s;
+
+}
+.banner-section .main-banner .left .btns a:hover{
+    background-color: #369af1;
+    transition: 0.8s;
+
+} 
+
+.banner-section .main-banner .right{
+    
+    flex-basis: 50%;
+    
+    
+}
+.banner-section .main-banner .right img {
+    width: auto;
+    position: absolute;
+    right: 212px;
+    top: 125px;
+}
+
+/* 2nd Section CSS design */
+
+.count-section{
+    width: 100%;
+}
+
+.count-section .container{
+    
+}
+
+.count-section .container .main-count{
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.count-section .container .main-count .box-1{
+    flex-basis: 33%;
+    border: 1px solid rgb(211, 14, 113);
+    background-color: rgb(211, 14, 113);
+    color: white;
+    height: 170px;
+    margin-right: 20px;
+    border-radius: 22px;
+    transition: 0.5s;
+
+}
+
+.count-section .container .main-count .box-1:hover{
+    border: 1px solid rgb(211, 14, 113);
+    background-color: rgb(211, 14, 113);
+    color: white;
+    border-radius: 22px;
+    transition: 0.5s;
+    box-shadow: 1px 1px rgb(211, 14, 113), 2px 2px rgb(211, 14, 113), 2px 2px rgb(211, 203, 203), 1px 1px rgb(211, 203, 203);
+
+
+}
+.count-section .container .main-count .box-1 .icon-content-1{
+    display: flex;
+    padding: 24px;
+}
+
+.count-section .container .main-count .box-1 .icon-content-1 i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.count-section .container .main-count .box-1 .icon-content-1 h2,p{
+    line-height: 28px;
+
+} 
+
+.count-section .container .main-count .box-2{
+    flex-basis: 33%;
+    border: 1px solid rgb(7, 202, 216);
+    background-color: rgb(7, 202, 216);
+    color: white;
+    height: 170px;
+    margin-right: 20px;
+    border-radius: 22px;
+    transition: 0.5s;
+
+}
+
+.count-section .container .main-count .box-2:hover{
+    border: 1px solid rgb(7, 202, 216);
+    background-color: rgb(7, 202, 216);
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 1px 1px rgb(7, 202, 216), 2px 2px rgb(7, 202, 216), 2px 2px rgb(211, 203, 203), 1px 1px rgb(211, 203, 203);
+
+
+}
+
+.count-section .container .main-count .box-2 .icon-content-2{
+    display: flex;
+    padding: 19px;
+}
+
+.count-section .container .main-count .box-2 .icon-content-2 i{
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+
+.count-section .container .main-count .box-2 .icon-content-2 h2,p{
+    line-height: 28px;
+
+} 
+
+.count-section .container .main-count .box-3{
+    flex-basis: 33%;
+    border: 1px solid rgb(26, 115, 250);
+    background-color: rgb(26, 115, 250);
+    color: white;
+    height: 170px;
+    margin-right: 20px;
+    border-radius: 22px;
+    transition: 0.5s;
+}
+
+.count-section .container .main-count .box-3:hover{
+    border: 1px solid rgb(26, 115, 250);
+    background-color: rgb(26, 115, 250);
+    color: white;
+    border-radius: 22px;
+    transition: 0.5s;
+    box-shadow: 1px 1px rgb(26, 115, 250), 2px 2px rgb(26, 115, 250), 2px 2px rgb(211, 203, 203), 1px 1px rgb(211, 203, 203);
+
+
+}
+
+.count-section .container .main-count .box-3 .icon-content-3{
+    display: flex;
+    padding: 24px;
+}
+
+.count-section .container .main-count .box-3 .icon-content-3 i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.count-section .container .main-count .box-3 .icon-content-3 h2,p{
+    line-height: 28px;
+
+} 
+
+/* 3rd Section CSS design */
+
+.section-3rd{
+    width: 100%;
+}
+
+.section-3rd .banner-3rd{
+    display: flex;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+
+.section-3rd .banner-3rd .left {
+    flex-basis: 50%;
+    margin-right: 58px;
+}
+
+.section-3rd .banner-3rd .left h4 {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.section-3rd .banner-3rd .left h1 {
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 13px 0;
+}
+
+.section-3rd .banner-3rd .left p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 18px;
+    font-weight: 400;
+    margin-bottom: 52px;
+    margin-right: 45px;
+}
+
+.section-3rd .banner-3rd .left .btns-3rd a{
+    background-color: #0e72cc;
+    padding: 13px 28px;
+    color: white;
+    font-size: 16px;
+    border-radius: 13px;
+    transition: 0.8s;
+}
+
+.section-3rd .banner-3rd .left .btns-3rd a:hover{
+    background-color: #369af1;
+    transition: 0.8s;
+}
+
+.section-3rd .banner-3rd .right{
+    flex-basis: 50%;
+    
+}
+
+.section-3rd .banner-3rd .right img {
+    position: absolute;
+    right: -34px;
+    top: -47px;
+    width: 53%;
+}
+
+
+/* Footer section CSS */
+
+.main-footer h4{
+    
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
